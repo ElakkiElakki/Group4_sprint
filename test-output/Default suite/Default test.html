@@ -1,0 +1,306 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 17 21:51:58 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (767 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.TestRunnerIO.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunnerIO<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User books flight with multiple departure and destination", "Flight Booking Flow"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user opens booking homepage for registration&apos; and 20 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;user opens booking homepage for registration&quot;)
+public void user_opens_booking_homepage_for_registration() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user dismisses popup if visible&quot;)
+public void user_dismisses_popup_if_visible() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user selects register option&quot;)
+public void user_selects_register_option() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user provides email and proceeds&quot;)
+public void user_provides_email_and_proceeds() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user completes CAPTCHA and OTP verification&quot;)
+public void user_completes_captcha_and_otp_verification() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;user launches booking homepage for flights&quot;)
+public void user_launches_booking_homepage_for_flights() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user opens flights section&quot;)
+public void user_opens_flights_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user chooses one way trip option&quot;)
+public void user_chooses_one_way_trip_option() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user selects multiple departure locations&quot;)
+public void user_selects_multiple_departure_locations() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user selects multiple destination locations&quot;)
+public void user_selects_multiple_destination_locations() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user picks travel date&quot;)
+public void user_picks_travel_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user configures travellers and children ages&quot;)
+public void user_configures_travellers_and_children_ages() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user triggers flight search&quot;)
+public void user_triggers_flight_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user views available flight results&quot;)
+public void user_views_available_flight_results() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user selects first flight and proceeds&quot;)
+public void user_selects_first_flight_and_proceeds() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user lands on traveller details section&quot;)
+public void user_lands_on_traveller_details_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user fills traveller personal information&quot;)
+public void user_fills_traveller_personal_information() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user fills contact information and proceeds&quot;)
+public void user_fills_contact_information_and_proceeds() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user selects ticket type and proceeds&quot;)
+public void user_selects_ticket_type_and_proceeds() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user skips seat selection&quot;)
+public void user_skips_seat_selection() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user reaches payment section&quot;)
+public void user_reaches_payment_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.user opens booking homepage for registration(file:///C:/SeleniumCapgeminiTraining/Group4_sprint/src/test/java/featureFile/FT_EndToEndBooking.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace936906727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace936906727'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user opens booking homepage for registration&apos; and 20 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;user opens booking homepage for registration&quot;)
+public void user_opens_booking_homepage_for_registration() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user dismisses popup if visible&quot;)
+public void user_dismisses_popup_if_visible() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user selects register option&quot;)
+public void user_selects_register_option() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user provides email and proceeds&quot;)
+public void user_provides_email_and_proceeds() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user completes CAPTCHA and OTP verification&quot;)
+public void user_completes_captcha_and_otp_verification() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;user launches booking homepage for flights&quot;)
+public void user_launches_booking_homepage_for_flights() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user opens flights section&quot;)
+public void user_opens_flights_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user chooses one way trip option&quot;)
+public void user_chooses_one_way_trip_option() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user selects multiple departure locations&quot;)
+public void user_selects_multiple_departure_locations() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user selects multiple destination locations&quot;)
+public void user_selects_multiple_destination_locations() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user picks travel date&quot;)
+public void user_picks_travel_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user configures travellers and children ages&quot;)
+public void user_configures_travellers_and_children_ages() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user triggers flight search&quot;)
+public void user_triggers_flight_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user views available flight results&quot;)
+public void user_views_available_flight_results() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user selects first flight and proceeds&quot;)
+public void user_selects_first_flight_and_proceeds() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user lands on traveller details section&quot;)
+public void user_lands_on_traveller_details_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user fills traveller personal information&quot;)
+public void user_fills_traveller_personal_information() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user fills contact information and proceeds&quot;)
+public void user_fills_contact_information_and_proceeds() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user selects ticket type and proceeds&quot;)
+public void user_selects_ticket_type_and_proceeds() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user skips seat selection&quot;)
+public void user_skips_seat_selection() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user reaches payment section&quot;)
+public void user_reaches_payment_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.user opens booking homepage for registration(file:///C:/SeleniumCapgeminiTraining/Group4_sprint/src/test/java/featureFile/FT_EndToEndBooking.feature:4)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.TestRunnerIO@ae13544</td></tr>
+</table><p>
+</body>
+</html>
